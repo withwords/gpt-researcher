@@ -61,6 +61,7 @@ class GPTResearcher:
         time.sleep(2)
         return report
 
+
     async def get_new_urls(self, url_set_input):
         """ Gets the new urls from the given url set.
         Args: url_set_input (set[str]): The url set to get the new urls from
