@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      
+  
       - name: Sync and merge upstream repository with your current repository
         uses: dabreadman/sync-upstream-repo@v1.0.0.b
         with:
@@ -22,4 +22,4 @@ jobs:
           # Branch to merge into downstream
           downstream_branch: master
           # GitHub Bot token
-          token: ${{ secrets.MY_GTHB_TOKEN }}
+          token: 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
