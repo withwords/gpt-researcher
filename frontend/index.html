@@ -2,22 +2,23 @@
 <html lang="en">
 
 <head>
-    <title>GPT Researcher</title>
-    <meta name="description" content="A research assistant powered by GPT-4">
+    <title>Content Brief Researcher - Withwords</title>
+    <meta name="description" content="Content Brief Researcher - Withwords">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
     <link rel="icon" href="./static/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/site/styles.css"/>
     <style>
+        
         .avatar {
             width: 60px;
             height: 60px;
-            border-radius: 50%;
         }
-
+        
         .agent-name {
             text-align: center;
         }
@@ -35,31 +36,16 @@
         .btn-show {
             display: none;
         }
+
     </style>
 </head>
 
 <body>
 
-<section class="landing">
-    <div class="max-w-5xl mx-auto text-center">
-        <h1 class="text-4xl font-extrabold mx-auto lg:text-7xl">
-            Say Goodbye to <br>
-            <span
-                    style="background-image:linear-gradient(to right, #9867F0, #ED4E50); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Hours
-                    of Research</span>
-        </h1>
-        <p class="max-w-5xl mx-auto text-gray-600 mt-8" style="font-size:20px">
-            Say Hello to GPT Researcher, your AI mate for rapid insights and comprehensive research. GPT Researcher
-            takes care of everything from accurate source gathering to organization of research results - all in one
-            platform designed to make your research process a breeze.
-        </p>
-        <a href="#form" class="btn btn-primary">Get Started</a>
-    </div>
-</section>
-
 <main class="container" id="form">
-    <div class="agent-item"><img src="/static/defaultAgentAvatar.JPG" class="avatar"
-                                                alt="Auto Agent"></div>
+    <div class="agent-item"><img src="/static/secondaryLogo.svg" class="avatar"
+                                                alt="Withwords"></div>
+                                        
     <form method="POST" class="mt-3" onsubmit="GPTResearcher.startResearch(); return false;">
         <div class="form-group">
             <label for="task" class="agent-question">What would you like me to research next?</label>
@@ -103,8 +89,7 @@
 </main>
 
 <footer>
-    <p>GPT Researcher &copy; 2023 | <a target="_blank" href="https://github.com/assafelovic/gpt-researcher">GitHub
-        Page</a></p>
+    <p>Withwords &copy; 2023</p>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
