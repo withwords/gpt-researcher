@@ -30,13 +30,13 @@ To try the API in action, you can now use our hosted version [here](https://app.
 ### How is Tavily different from other search APIs?
 Current search APIs such as Google, Serp and Bing retrieve search results based on user query. However, the results are sometimes irrelevant to the goal of the search, and return simple site URLs and snippets of content which are not always relevant. Because of this, any developer would need to then scrape the sites for relevant content, filter irrelevant information, optimize the content to fit LLM context limits, and more. This tasks is a burden and requires skills to get right.
 
-Tavily Search API aggregates over 20+ sites per a single API call, and uses propietary AI to score, filter and rank the top most relevant sources and content to your task, query or goal. In addition, Tavily allows developers to add custom fields such as context and limit response tokens to enable the optimal search experience for LLMs.
-
+Tavily Search API aggregates over 20+ sites per a single API call, and uses  AI to score, filter and rank the top most relevant sources and content to your task, query or goal. In addition, Tavily allows developers to add custom fields such as context and limit response tokens to enable the optimal search experience for LLMs.
+proprietary
 Lastly, Tavily indexes and ranks search results based on factors such as trusted sources, content quality, and more. This allows for a more accurate and relevant search experience for AI agents.
 
 Remember: With LLM hallucinations, it's crucial to optimize for RAG with the right context and information.
 ### What is Tavily API pricing?
-Tavily is free to use for up to 1,000 API calls. If you're interested in more, we're excited to introduce our partners program which allows you to get increased API limit for free in exchange for feedback and collaboration.
+Tavily is free to use for up to 1,000 API calls. Check out our [pricing page](https://tavily.com/#pricing) for more information.
 
 At the moment we don't have a pricing model, since we're still in beta and focused on building the best product for our users. We're always open to feedback and suggestions, so please reach out if you have any ideas!
 ### What are your plans for the future?
